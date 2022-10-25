@@ -41,7 +41,7 @@ Start the server
 
 ## Tech Stack
 
-**Client:** React, Typescript
+**Client:** React, Typescript, Sass
 
 ## Color Reference
 
