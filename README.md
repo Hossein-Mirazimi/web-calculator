@@ -47,10 +47,10 @@ Start the server
 
 | Color               | Hex                                                                |
 | ------------------- | ------------------------------------------------------------------ |
-| bg-color            | ![#161122](https://via.placeholder.com/10/161122?text=+) #161122 |
-| btn-color           | ![#281f3d](https://via.placeholder.com/10/281f3d?text=+) #281f3d |
-| top-btn-color       | ![#423366](https://via.placeholder.com/10/423366?text=+) #423366 |
-| operation-btn-color | ![#6e55aa](https://via.placeholder.com/10/6e55aa?text=+) #6e55aa |
+| bg-color            | ![#161122](https://via.placeholder.com/10/161122/161122.png) #161122 |
+| btn-color           | ![#281f3d](https://via.placeholder.com/10/281f3d/281f3d.png) #281f3d |
+| top-btn-color       | ![#423366](https://via.placeholder.com/10/423366/423366.png) #423366 |
+| operation-btn-color | ![#6e55aa](https://via.placeholder.com/10/6e55aa/6e55aa.png) #6e55aa |
 
 
 ## License
