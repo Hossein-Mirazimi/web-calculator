@@ -54,8 +54,8 @@ function App() {
     <div className="calculator-app">
       <div className="output">{ currentOperand }</div>
         <button style={{opacity: 0}}></button>
-        <button onClick={() => dispatch({ type: 'clear' })}>C</button>
-        <button onClick={() => dispatch({ type: 'result' })}><Equal/></button>
+        <button className='top' onClick={() => dispatch({ type: 'clear' })}>C</button>
+        <button className='top' onClick={() => dispatch({ type: 'result' })}><Equal/></button>
         <button className='operation' onClick={() => dispatch({ type: 'remove'})}>
           <Backspace />
         </button>
