@@ -5,6 +5,7 @@ A simple Calculator in web.
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14824ef2-d129-4921-a5d3-47a9f43e6310/deploy-status)](https://app.netlify.com/sites/web-calculator-demo/deploys)
 
 
 ## Screenshots
