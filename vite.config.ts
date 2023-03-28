@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         dir: 'ltr',
         name: 'Web Calculator',
-        short_name: 'WebCal',
+        short_name: 'Web Calculator',
         theme_color: '#161122',
         orientation: 'portrait',
         start_url: '/',
