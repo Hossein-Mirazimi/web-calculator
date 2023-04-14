@@ -65,26 +65,31 @@ function App() {
         <DigitButton digit='1' dispatch={dispatch} />
         <DigitButton digit='2' dispatch={dispatch} />
         <DigitButton digit='3' dispatch={dispatch} />
+        {/* @ts-ignore */}
         <OperationButton operation='%' dispatch={dispatch}>
           <Percentage/>
         </OperationButton>
         <DigitButton digit='4' dispatch={dispatch} />
         <DigitButton digit='5' dispatch={dispatch} />
         <DigitButton digit='6' dispatch={dispatch} />
+        {/* @ts-ignore */}
         <OperationButton operation='/' dispatch={dispatch}>
           <Divide/>
         </OperationButton>
         <DigitButton digit='7' dispatch={dispatch} />
         <DigitButton digit='8' dispatch={dispatch} />
         <DigitButton digit='9' dispatch={dispatch} />
+        {/* @ts-ignore */}
         <OperationButton operation='x' dispatch={dispatch}>
           <Multiplication/>
         </OperationButton>
         <DigitButton digit='0' dispatch={dispatch} />
         <DigitButton digit='.' dispatch={dispatch} />
+        {/* @ts-ignore */}
         <OperationButton operation='-' dispatch={dispatch}>
           <Minus/>
         </OperationButton>
+        {/* @ts-ignore */}
         <OperationButton operation='+' dispatch={dispatch}>
           <Plus/>
         </OperationButton>
