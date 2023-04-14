@@ -1,4 +1,10 @@
 
-export default function OperationButton ({dispatch, operation}: {dispatch: any; operation: JSX.Element}) {
-  return <button className="operation" onClick={() => dispatch({type: 'add-operation', payload: {operation}})}>{operation}</button>
+export default function OperationButton (props: {dispatch: any; operation: string; children: any[]}) {
+  return <button
+    className="operation"
+    onClick={
+      () => props.dispatch({type: 'add-operation', payload: props.operation})
+    }>
+      {props.children}
+    </button>
 }
