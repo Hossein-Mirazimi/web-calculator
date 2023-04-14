@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
-        navigationPreload: true,
+        // navigationPreload: true,
       },
       includeAssets: ['favicon.ico'],
       manifest: {
