@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "app.hossein_mirazimi.web_calculator.twa",
+                     "sha256_cert_fingerprints": ["25:A1:CB:1A:34:D4:14:9F:4F:04:B4:F5:0F:C1:3B:2F:19:BD:09:5D:F2:7B:52:A7:63:1F:ED:09:AE:F5:21:91"] }
+      }
+]
