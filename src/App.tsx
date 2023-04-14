@@ -51,8 +51,9 @@ function App() {
   }, { currentOperand: 0 } as { currentOperand: string | number })
 
   return (
-    <div className="calculator-app">
-      <div className="output">{ currentOperand }</div>
+    <main className="calculator-app">
+      <div className="calculator-app__output">{ currentOperand }</div>
+      <div className="calculator-app__buttons">
         <button style={{opacity: 0}}></button>
         <button className='top' onClick={() => dispatch({ type: 'clear' })}>C</button>
         <button className='top' onClick={() => dispatch({ type: 'result' })}><Equal/></button>
@@ -76,6 +77,7 @@ function App() {
         <OperationButton operation={<Minus/>} dispatch={dispatch} />
         <OperationButton operation={<Plus/>} dispatch={dispatch} />
       </div>
+      </main>
   )
 }
 
