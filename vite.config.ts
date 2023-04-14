@@ -9,6 +9,11 @@ export default defineConfig({
     VitePWA({
       minify: true,
       registerType: 'autoUpdate',
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        navigationPreload: true,
+      },
+      includeAssets: ['favicon.ico'],
       manifest: {
         dir: 'ltr',
         name: 'Web Calculator',
